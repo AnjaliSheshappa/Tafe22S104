@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+	<Grid>
 		<StackPanel>
         <TextBlock HorizontalAlignment="Left" Margin="433,100,0,0" Text="Universal Calculator" FontSize="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="451"/>
 		</StackPanel>
@@ -19,7 +19,7 @@
 			<Button Content="Mortgage Calculator" Margin="545,288,0,0" VerticalAlignment="Top" Width="163"/>
 		</StackPanel>
 		<StackPanel>
-		<Button Content="Currency Converter" Margin="545,373,0,0" VerticalAlignment="Top" Width="143"/>
+			<Button Content="Currency Converter" Margin="545,373,0,0" VerticalAlignment="Top" Width="143"/>
 		</StackPanel>
 		<StackPanel>
         <Button Content="Shopping Cart" Margin="545,448,0,0" VerticalAlignment="Top" Width="143"/>
