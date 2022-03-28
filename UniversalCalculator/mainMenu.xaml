@@ -13,19 +13,19 @@
         <TextBlock HorizontalAlignment="Left" Margin="433,100,0,0" Text="Universal Calculator" FontSize="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="451"/>
 		</StackPanel>
 		<StackPanel>
-		<Button Content="Maths Calculator" Margin="545,212,0,0" VerticalAlignment="Top" Width="143" Click="Button_Click"/>
+			<Button Content="Maths Calculator" Margin="545,212,0,0" VerticalAlignment="Top" Width="143" Click="mathsCalculatorButton_Click"/>
 		</StackPanel>
 		<StackPanel>
-			<Button Content="Mortgage Calculator" Margin="545,288,0,0" VerticalAlignment="Top" Width="163"/>
+			<Button Content="Mortgage Calculator" Margin="545,288,0,0" VerticalAlignment="Top" Width="163" Click="mortgageCalculatorButton_Click"/>
 		</StackPanel>
 		<StackPanel>
-			<Button Content="Currency Converter" Margin="545,373,0,0" VerticalAlignment="Top" Width="143"/>
+			<Button Content="Currency Converter" Margin="545,373,0,0" VerticalAlignment="Top" Width="143" Click="currencyConverterButton_Click"/>
 		</StackPanel>
 		<StackPanel>
-        <Button Content="Shopping Cart" Margin="545,448,0,0" VerticalAlignment="Top" Width="143"/>
+			<Button Content="Shopping Cart" Margin="545,448,0,0" VerticalAlignment="Top" Width="143"  Click="shoppingCartButton_Click"/>
 		</StackPanel>
 		<StackPanel>
-        <Button Content="Exit" Margin="592,539,0,0" VerticalAlignment="Top"/>
+			<Button Content="Exit" Margin="592,539,0,0" VerticalAlignment="Top" Click="exitButton_Click"/>
 		</StackPanel>
 		<StackPanel>
             <Image Height="100"  Source="images/abacus.PNG" Width="100" HorizontalAlignment="Right"/>

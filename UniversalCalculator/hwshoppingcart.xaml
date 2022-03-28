@@ -54,6 +54,7 @@
 				<Button  x:Name="calculateButton" Content="calculate" Click="calculateButton_Click" Width="105" />
 				<TextBlock Text="Total Ticket Cost:" Width="165"/>
 				<TextBlock x:Name="totalCostTextBlock" Text="Subtotal" Width="186" />
+				<Button Content="exit" Click="exitButton_Click"/>
 			</StackPanel>
 		</StackPanel>
 

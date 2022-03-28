@@ -112,5 +112,10 @@ namespace Calculator
 			sum = desktopQuantity * DESKTOP_PRICE + keyboarQuantity * KEYBOARD_PRICE + mouseQuantity * MOUSE_PRICE;
 			totalCostTextBlock.Text = sum.ToString("C");
 		}
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(mainMenu));
+		}
 	}
 }

@@ -35,8 +35,9 @@ namespace Calculator
 
 					//rootFrame.Navigate(typeof(mortgage), e.Arguments);
 
-					rootFrame.Navigate(typeof(hwshoppingcart), e.Arguments);
+					//rootFrame.Navigate(typeof(hwshoppingcart), e.Arguments);
 
+					rootFrame.Navigate(typeof(mainMenu), e.Arguments);
 				Window.Current.Activate();
 			}
 		}
