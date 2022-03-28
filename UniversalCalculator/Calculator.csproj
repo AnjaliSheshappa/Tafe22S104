@@ -122,6 +122,9 @@
     <Compile Include="Currency_Calculator_Page.xaml.cs">
       <DependentUpon>Currency_Calculator_Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="hwshoppingcart.xaml.cs">
+      <DependentUpon>hwshoppingcart.xaml</DependentUpon>
+    </Compile>
     <Compile Include="mainMenu.xaml.cs">
       <DependentUpon>mainMenu.xaml</DependentUpon>
     </Compile>
@@ -169,6 +172,10 @@
     <Page Include="Controls\NumberButtonControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="hwshoppingcart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="mainMenu.xaml">
       <SubType>Designer</SubType>
