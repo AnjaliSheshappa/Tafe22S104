@@ -52,6 +52,11 @@ namespace Calculator
 			this.Frame.Navigate(typeof(hwshoppingcart));
 		}
 
+		private void tripCalculatorButton_Click(object sender, RoutedEventArgs e)
+		{
+			TripCalculatorTextBlock.Text += "Trip Calculator C# Code will be developed later";
+		}
+
 		private void exitButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(mainMenu));
