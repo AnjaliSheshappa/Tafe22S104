@@ -33,9 +33,9 @@ namespace Calculator
 
 					//rootFrame.Navigate(typeof(Currency_Calculator_Page), e.Arguments);
 
-					rootFrame.Navigate(typeof(mortgage), e.Arguments);
+					//rootFrame.Navigate(typeof(mortgage), e.Arguments);
 
-					//rootFrame.Navigate(typeof(hwshoppingcart), e.Arguments);
+					rootFrame.Navigate(typeof(hwshoppingcart), e.Arguments);
 
 				Window.Current.Activate();
 			}
